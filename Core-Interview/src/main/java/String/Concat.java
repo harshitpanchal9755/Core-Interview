@@ -4,14 +4,13 @@ public class Concat {
 	
 	public static void main(String[] args) {
 		
-		String s1 = "hello";
-		String s2 = "java";
+		String s1 = "java";
+		String s2 = "core";
 		
-		System.out.println("concat :" + s1.concat(s2)); // merge karta ha concat example 
-		////  hello + java = hellojava; concat varible;
-		///
-		///output : 
-		///concat : hellojava;
+		System.out.println(s1.concat(s2)); // merge the varible
+		
 	}
-
 }
+
+               // output
+////        javacore

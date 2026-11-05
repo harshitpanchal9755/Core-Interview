@@ -4,13 +4,15 @@ public class CountDigitInString {
 	
 	public static void main(String[] args) {
 		
-		String str = "Harshit2345678909876543";
+		String str = "Harshit";
 		
 		int count = 0;
 		
 		for(int i = 0; i < str.length(); i++) {
 			
-			if(Character.isDigit(str.charAt(i))) {
+			char ch = str.charAt(i);
+			
+			if(ch >= 'a' && ch <= 'z') {
 				count++;
 				
 			}

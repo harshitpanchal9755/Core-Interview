@@ -6,21 +6,20 @@ public class StringToInteger {
 		
 	String str = "Harshiut123";
 	
-	String num = "";
+	int count = 0;
 	
 	for(int i = 0; i < str.length(); i++) {
 		
-		char ch = str.charAt(i);
-		
-		if(ch >= '0' && ch <= '9') {
+		if(Character.isDigit(str.charAt(i))) {
 			
-			num = num + ch;
+			count++;
 			
 		}
 	}
 	
-	int result = Integer.parseInt(num);
-	System.out.println(result);
+	if(count > 0) {
+		System.out.println(count);
+	}
 	
 	}
 

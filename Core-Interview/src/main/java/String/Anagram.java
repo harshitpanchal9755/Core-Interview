@@ -3,11 +3,10 @@ package String;
 import java.util.Arrays;
 
 public class Anagram {
-	
 	public static void main(String[] args) {
 		
-		String s1 = "oHellJava";
-		String s2 = "hellojava";
+		String s1 = "aHarshit";
+		String s2 = "haarshit";
 		
 		char[] c1 = s1.toCharArray();
 		char[] c2 = s2.toCharArray();
@@ -16,13 +15,11 @@ public class Anagram {
 		Arrays.sort(c2);
 		
 		if(Arrays.equals(c1, c2)) {
+			System.out.println("this a anagram");
 			
-			System.out.println("this is a anagram");
-			
-		}else {
-			System.out.println("this is not anagram ");
+		} else {
+			System.out.println("this is not anagram");
 		}
-	
 	}
 
 }

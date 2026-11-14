@@ -1,10 +1,10 @@
 package String;
 
-public class CountNoOfInteger {
+public class countNoOfInteger {
 	
 	public static void main(String[] args) {
 		
-		String str = "Rishab23432";
+		String str = "harshit";
 		
 		int count = 0;
 		
@@ -15,12 +15,12 @@ public class CountNoOfInteger {
 				count++;
 				
 			}
+			
 		}
 		
 		if(count > 0) {
 			System.out.println(count);
 		}
-		
 	}
 
 }

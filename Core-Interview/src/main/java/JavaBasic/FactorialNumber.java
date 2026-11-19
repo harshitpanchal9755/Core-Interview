@@ -10,7 +10,7 @@ public class FactorialNumber {
 		
 		fact = fact * i;
 		
-		System.out.println(fact);
+		System.out.println(fact); // 1*1 = 1 1 * 2 = 2 , 2 * 3 = 6 * 4 = 24
 		
 	}
 	}

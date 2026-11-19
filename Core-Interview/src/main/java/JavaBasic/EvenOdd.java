@@ -6,7 +6,7 @@ public class EvenOdd {
 		
 		int i = 12;
 		
-		if(i % 2 == 0) {
+		if(i % 12 == 0) {
 			System.out.println("this is even");
 			
 		}else {

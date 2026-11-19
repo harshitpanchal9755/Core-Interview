@@ -16,7 +16,7 @@ public class ArmStrongNumber {
 			sum = sum + (digit * digit * digit);
 			
 			num = num / 10;
-			
+				
 		}
 		
 		if(temp == sum) {
